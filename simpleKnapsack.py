@@ -5,12 +5,16 @@ N = 7
 K = 100
 
 def knapsackBool(i, size):
+    # if the bag is exactly full return true
     if size == 0:
         return True
+    # if we overfilled the bag return false
     if size < 0:
         return False
+    # if we have run out of items to put in the bag return false
     if i == 0:
         return False
+    # if there is still space, try the next object
     return knapsackBool(i-1, size) or knapsackBool(i-1, size - S[i])
     
 for _ in range(0,100):
