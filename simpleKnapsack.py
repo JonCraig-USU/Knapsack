@@ -23,7 +23,13 @@ for _ in range(0,100):
         print("Solution exists")
     else:
         print("Solution does not exist")
-        
+
+# S = [None, 1, 4, 7]
+# print(knapsackBool(3, 10)) # False
+# print(knapsackBool(3, 8))  # True
+# print(knapsackBool(3, 12)) # True
+# print(knapsackBool(3, 13)) # False
+# print(knapsackBool(3, 3))  # False
     
     
 N = 5
