@@ -99,7 +99,7 @@ def initWinMemo():
 # Experiment with the simple recursive algorithm
 # use a set of problems that arithmetically increase in size
 # uncomment the next line to run the experiment
-showTime(winNim, [i for i in range(10, 30, 2)], fit = 'exponential')
+# showTime(winNim, [i for i in range(10, 30, 2)], fit = 'exponential')
 
 # Experiment with the memoizing algorithm
 # Use a geometricly increasing set of values
